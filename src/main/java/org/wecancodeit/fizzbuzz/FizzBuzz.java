@@ -31,6 +31,7 @@ public class FizzBuzz {
                             "All other numbers will be converted into words. \n" +
                             "Please enter a number between 1 and 99.");
                 } else if (number == 100) {
+                    System.out.println("Game over. Thank you for playing.");
                     System.exit(0);
                 } else {
                     System.out.println("Error! Please select a valid number from 1 to 99.");
