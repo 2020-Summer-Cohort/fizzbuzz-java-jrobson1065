@@ -10,7 +10,6 @@ public class FizzBuzz {
         Scanner input = new Scanner(System.in);
         String result;
         int number;
-        boolean done = false;
         System.out.println("Please select a number from 1 to 99. " +
                 "Enter 0 for help or 100 to exit.");
         while (true) {
